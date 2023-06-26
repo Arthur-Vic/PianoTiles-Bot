@@ -10,9 +10,6 @@ import win32api, win32con
 #tile1 Position: x=780 y=600
 #tile1 Position: x=870 y=600
 
-'''def click(x,y):
-   pyautogui.click(x,y)'''
-
 def click(x,y):
    win32api.SetCursorPos((x,y))
    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,x,y,0,0)
@@ -24,20 +21,16 @@ y=500
 while keyboard.is_pressed('q') == False:
    if pyautogui.pixel(600,500)[0] == 0:
       x=600
-      #pyautogui.moveTo(x,y)
       click(x,y)
 
    if pyautogui.pixel(690,500)[0] == 0:
       x=690
-      #pyautogui.moveTo(x,y)
       click(x,y)
 
    if pyautogui.pixel(780,500)[0] == 0:
       x=780
-      #pyautogui.moveTo(x,y)
       click(x,y)
 
    if pyautogui.pixel(870,500)[0] == 0:
       x=870
-      #pyautogui.moveTo(x,y)
       click(x,y)
