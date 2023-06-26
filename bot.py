@@ -1,4 +1,3 @@
-from pyautogui import *
 import pyautogui
 import time
 import keyboard
@@ -10,6 +9,19 @@ import win32api, win32con
 #tile1 Position: x=780 y=600
 #tile1 Position: x=870 y=600
 
+#Maping the game window
+
+#Click on the 4 colums of tiles so the bot knows where they are
+x_pos_list=[]
+while len(x_pos_list) < 4:
+   cursor_pos = pyautogui.position()
+   if keyboard.is_pressed('w') == True:
+      if cursor_pos[0] not in x_pos_list:
+         x_pos_list.append(cursor_pos[0])
+      #print(x_pos_list)
+
+
+   
 def click(x,y):
    win32api.SetCursorPos((x,y))
    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,x,y,0,0)
