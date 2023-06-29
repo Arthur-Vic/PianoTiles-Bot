@@ -13,6 +13,9 @@ Added calibration stage so the on screen position of the game isn't coded in.
 -Also, press 'Q' to quit.
 
 
+### What I learned: Building this project I had a go at dealing with an unexpected outcome, and coding something that would do what I wanted independently of, in this case, the order of tiles the game would have given me. I was really proud of myself for also comming up with the "calibration step", where I came up with a way to tell the bot about the game screen's location, so you wouldn't have to position it in a specific way for the bot to work properly, thus giving more freedom to the user.
+
+
 ### Disclaimer: The bot provided in this repository is intended for educational purposes only.
 
 The bot developed here is designed to play the game "Piano Tiles" using automation techniques. It has been created as a demonstration of programming skills, and computer vision algorithms. Please be aware that the game "Piano Tiles" is the intellectual property of its respective owners. The usage of this bot with the game may potentially violate the terms and conditions established by the game's developers. By utilizing the bot, you acknowledge that any actions you take with it are at your own risk and responsibility. The author of this repository does not assume any liability for the consequences resulting from the use or misuse of the bot. It is crucial to understand that using this bot for gaining unfair advantages, cheating, or any unethical activities is strictly discouraged. Please comply with the rules and regulations set forth by the game's developers and respect their intellectual property rights.
