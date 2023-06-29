@@ -13,7 +13,9 @@ Added calibration stage so the on screen position of the game isn't coded in.
 -Also, press 'Q' to quit.
 
 
-### What I learned: Building this project I had a go at dealing with an unexpected outcome, and coding something that would do what I wanted independently of, in this case, the order of tiles the game would have given me. I was really proud of myself for also comming up with the "calibration step", where I came up with a way to tell the bot about the game screen's location, so you wouldn't have to position it in a specific way for the bot to work properly, thus giving more freedom to the user.
+### What I learned:
+
+Building this project I had a go at dealing with an unexpected outcome, and coding something that would do what I wanted independently of, in this case, the order of tiles the game would have given me. I was really proud of myself for also comming up with the "calibration step", where I came up with a way to tell the bot about the game screen's location, so you wouldn't have to position it in a specific way for the bot to work properly, thus giving more freedom to the user.
 
 
 ### Disclaimer: The bot provided in this repository is intended for educational purposes only.
